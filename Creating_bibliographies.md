@@ -32,7 +32,7 @@ We also want to tag the **most recent description (MRD)**, judged by the year of
 One of the reasons why the interplay of MED and MRD is interesting, is the following: Sometimes, one author has written 2 versions, and the older one is the longer one and the shorter one is the more recent one; thus, the MED would be the older one; but often, the author only digested his older work into a more readable and thought-through shorter version, which is the newer one.
 
 Note:
-If references are tagged for more than one language, it might be tagged with MED or MRD for one language, whereas it might not be the MED/MRD for one or more of the other languages. To differentiate between them
+If references are tagged for more than one language, it might be tagged with MED or MRD for one language, whereas it might not be the MED/MRD for one or more of the other languages. To differentiate between them, we added the glottocode of the language that is meant as a suffix ("_glottocode_of_languoid").
 
 
 (7. If we have time, we can also tag for another information: the endangerment status of the language. Glottolog usually provides (taken from Ethnologue), what the current status of any language supposedly is. We want to tag this information, esp. so that we are able to discern "living" and "dead" languages.)
