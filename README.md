@@ -18,6 +18,3 @@ The input file needs to specify the latter part of the URL (i.e. the folder), in
 "/macro-area/author_keywordyear(_suffix).pdf" like "eurasia\zydenbos_kannada2011_o.pdf" (can be found in the bib-files on Glottolog).
 (Note: this is my first python script; it's rather basic, and you may receive a warning about the security of the session - however, 
 as I have been told by the owner of the website, this is at current unavoidable. You may of course, report any issues via an issue, DM or pull request.)
-
-
-bla bla bla
