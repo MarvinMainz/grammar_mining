@@ -3,11 +3,13 @@ library(tidyverse)
 library(stringr)
 library(readr)
 
-# specify home directory; important: all files used must be in this folder!
-## setwd("/home/marvin/R")
+getwd()
+# Important: all files used must be in the folder returned by getwd() or their path has to be specified!
 
 # importing data
 bib <- read_file("SA_alldoctypes_glottolog-refs.bib")
+
+## for getting only the file names of a certain doctype separately, use the following and adapt the corresponding index where necessary in the code below):
 # bib1 <- read_file("SA_doctype_grammarsketch_glottolog-refs.bib")
 # bib2 <- read_file("SA_doctype_phonology_glottolog-refs.bib")
 # bib3 <- read_file("SA_doctype dictionary_glottolog-refs.bib")
