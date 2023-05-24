@@ -8,8 +8,8 @@ For this, we basically need to take the following steps (including loops to incr
 
 1. **define the scope** of our undertaking (figuring out which languages ought to be included)
 2. [**create a bibliography**](Creating_bibliographies.md) for every language involved (list of sources for every language)
-3. **acquire access** to all relevant sources (find & download sources)
-4. make sure that we can access all sources as easily as possible (ideally: making the sources machine-readable)
+3. [**acquire access**](Acquire_sources.md) to all relevant sources (find & download sources)
+4. **facilitate access** as much as possible (ideally: making the sources machine-readable; OCR where necessary)
 5. **extract information** with clear reference to the source
 
 All in all, this is just the typical academic process in working with literary sources, however, we want to do it in an efficient and well documented way.
