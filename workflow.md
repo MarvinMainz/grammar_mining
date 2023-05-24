@@ -7,7 +7,7 @@
 For this, we basically need to take the following steps (including loops to incrementally improve the results):
 
 1. **define the scope** of our undertaking (figuring out which languages ought to be included)
-2. (**create a bibliography**)[Creating_bibliographies.md] for every language involved (list of sources for every language)
+2. [**create a bibliography**](Creating_bibliographies.md) for every language involved (list of sources for every language)
 3. **acquire access** to all relevant sources (find & download sources)
 4. make sure that we can access all sources as easily as possible (ideally: making the sources machine-readable)
 5. **extract information** with clear reference to the source
@@ -21,13 +21,13 @@ We can do it in less or more software-intensive ways, but we will need a few too
 I am giving the tools and websites we need in the order we would use them and describe how we may use them.
 
 1. Listing linguistic entities
-**Glottolog.org**: "languages" (languoids) can be identified in several ways. The easiest (and a widely accepted) way will be to use the Glottocode. Glottolog.org provides us with a list of languages, which we can filter for the macroarea of South America (we might want to sort out colonial languages, unattested languages, creoles, pidgins, jargons and sign languages, or at least treat them differently). Every language will be referred to by a uniquely identifying code, the Glottocode. From this, we get a list of languages we can lay out in a document. In this document ("checklist.csv"), we will also note, which steps are done and which steps need to be done for every language.
+**Glottolog.org**: "languages" (languoids) can be identified in several ways. The easiest (and a widely accepted) way will be to use the Glottocode. [Glottolog](Glottolog.org) provides us with a list of languages, which we can filter for the macroarea of South America (we might want to sort out colonial languages, unattested languages, creoles, pidgins, jargons and sign languages, or at least treat them differently). Every language will be referred to by a uniquely identifying code, the Glottocode. From this, we get a list of languages we can lay out in a document. In this document ("checklist.csv"), we will also note, which steps are done and which steps need to be done for every language.
 
 
 2. Creating bibliographies
 **Glottolog.org**: luckily for us, Glottolog is a bibliographically oriented language catalog. That means, we also get a list of documents, which are related to the languages, even pre-sorted into types like grammar, dictionary etc.
 
-**Worldcat.org** and others: Creating comprehensive bibliographies for every language can and needs to be aided with a quick search in the library catalogue worldcat (https://www.worldcat.org/), google scholar and possibly other places, in case something is missing in Glottolog - using the language name (and the alternative language names!) which are also provided by Glottolog.
+**Worldcat.org** and others: Creating comprehensive bibliographies for every language can and needs to be aided with a quick search in the library catalogue [worldcat](https://www.worldcat.org/), google scholar and possibly other places, in case something is missing in Glottolog - using the language name (and the alternative language names!) which are also provided by Glottolog.
 
 **Zotero**: We will take these bibliographies and import them into Zotero. We will then create language-specific bibliographies by using a tag with their glottocode.
 (In Addition: we will also tag the most extensive description (MED) of every language and the most recent description (MRD).)
@@ -51,7 +51,7 @@ I am giving the tools and websites we need in the order we would use them and de
 
 5. Extracting information
 
-**libre office calc**: we can use a program like excel (preferrably libre office calc) to create data tables, which will be designed depending on the kind of data we want to extract.
+**libre office calc**: we can use a program like excel (preferrably libre office calc) to create spread sheets for our data, which will be designed depending on the kind of data we want to extract.
 
 **Zotero / Python / other software**: then comes the most interesting part, extracting the relevant information. We can do this in several different ways, which we will probably have to combine in order to yield good results.
 That is
